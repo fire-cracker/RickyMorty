@@ -1,0 +1,13 @@
+.footer__section {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+  footer {
+    background-color: #eee;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+}

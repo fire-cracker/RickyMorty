@@ -1,0 +1,56 @@
+.App-header {
+  background: linear-gradient(whitesmoke 30%, slateblue 50%);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.play__cards__grid{
+  display: grid;
+  grid-template-columns:  auto auto auto auto;
+  grid-template-rows: 1fr;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  padding: 0 5rem;
+  margin-top: 2rem;
+  margin-bottom: auto;
+  
+  .playCard{
+    width:100%;
+    background-color: white;
+    text-align: center;
+
+    img{
+      cursor: pointer;
+    }
+  }
+}
+
+ @media only screen and (max-width: 600px) {
+  
+}
+
+@media only screen and (max-width: 768px) {
+
+  }
+  @media only screen and (max-width: 1200px) {
+    .play__cards__grid{
+      grid-template-rows: 1fr;
+      grid-column-gap: 2rem;
+      grid-row-gap: 2rem;
+      padding: 0 5rem;
+      margin-top: 7rem;
+      margin-bottom: auto;
+      
+      .playCard{
+        width:100%;
+    
+        img{
+          width:100%;
+        }
+      }
+    }
+  }
