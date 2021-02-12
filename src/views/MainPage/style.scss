@@ -1,6 +1,6 @@
 .App-header {
   background: linear-gradient(whitesmoke 30%, slateblue 50%);
-  min-height: 100vh;
+  min-height: calc(100vh - 4rem);
   overflow: hidden;
 }
 

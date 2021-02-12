@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer__section">
         <footer>
             <div>
-                <article id="license" href="LICENSE.md">© 2018 RickyMorty. All Rights Reserved</article>
+                <article id="license">© 2018 RickyMorty. All Rights Reserved</article>
             </div>
         </footer>
 
